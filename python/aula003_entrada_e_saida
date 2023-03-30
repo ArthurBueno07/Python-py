@@ -1,0 +1,35 @@
+# Curso Técnico de Informática
+# Autor: Agostinho Arthur Bueno Fernandes 
+# Data: 07/11/2022
+# Primeiro Programa Python
+
+# Importando as bibliotecas
+import os
+# Limpando o terminal
+os.system('cls')
+
+# uso de comamdo de input
+
+# Entrada
+nome = str(input('Qual seu nome: '))
+dataNascimento = int(input('Em que ano você nasceu: '))
+altura = float(input('Qual sua altura: '))
+peso = float(input('Quanto você pesa: '))
+
+
+# Saída 
+print('-'*70)
+print('ESTUDO DE ENTRADA DE DADOS COM INPUT')
+print('='*70)
+print('Seu nome é...............: ', nome)
+print('Ano de nascimento........:', dataNascimento)
+print('Você mede................:', altura, 'm')
+print('Seu peso é...............:', peso, 'kg')
+print('='*70)
+print('Fim do programa!')
+print('-'*70)
+
+
+
+
+
